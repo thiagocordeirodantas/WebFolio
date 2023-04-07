@@ -137,5 +137,19 @@ body {
 @media (max-width: 1200px){
     .apresentacao {
         flex-direction: column-reverse;
+        padding: 5%;
     }
+
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+
 }
